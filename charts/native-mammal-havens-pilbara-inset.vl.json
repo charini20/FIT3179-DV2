@@ -1,0 +1,108 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Pilbara inset of verified mammal haven sites; geographic longitude/latitude projected using equalEarth as in the FIT3179 mapping studio.",
+  "background": "#FFFFFF",
+  "width": 258,
+  "height": 172,
+  "padding": 0,
+  "projection": {
+    "type": "equalEarth",
+    "scale": 2815.8794,
+    "translate": [
+      -4601.7413,
+      -1120.4464
+    ]
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/australia_naturalearth_outline.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#E9EFF7",
+        "stroke": "#B9C9DD",
+        "strokeWidth": 1.5
+      }
+    },
+    {
+      "data": {
+        "url": "data/mammal_havens_pilbara_2024.csv",
+        "format": {
+          "type": "csv"
+        }
+      },
+      "mark": {
+        "type": "circle",
+        "size": 13.5,
+        "opacity": 0.88,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 0.55,
+        "tooltip": true
+      },
+      "encoding": {
+        "longitude": {
+          "field": "verified_lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "verified_lat",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "type",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "island",
+              "fenced"
+            ],
+            "range": [
+              "#607CC1",
+              "#C47D9D"
+            ]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "name",
+            "type": "nominal",
+            "title": "Site"
+          },
+          {
+            "field": "type_label",
+            "type": "nominal",
+            "title": "Protection type"
+          },
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State / territory"
+          },
+          {
+            "field": "n_species",
+            "type": "quantitative",
+            "title": "Mammal taxa",
+            "format": ".0f"
+          },
+          {
+            "field": "species",
+            "type": "nominal",
+            "title": "Mammals recorded"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "font": "DM Sans",
+    "view": {
+      "stroke": null
+    }
+  }
+}

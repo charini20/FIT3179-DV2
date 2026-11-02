@@ -1,0 +1,107 @@
+[
+  {
+    "family": "Muridae",
+    "status": "Critically Endangered",
+    "count": 1
+  },
+  {
+    "family": "Muridae",
+    "status": "Endangered",
+    "count": 7
+  },
+  {
+    "family": "Muridae",
+    "status": "Vulnerable",
+    "count": 11
+  },
+  {
+    "family": "Muridae",
+    "status": "Extinct",
+    "count": 14
+  },
+  {
+    "family": "Other families",
+    "status": "Critically Endangered",
+    "count": 6
+  },
+  {
+    "family": "Other families",
+    "status": "Endangered",
+    "count": 15
+  },
+  {
+    "family": "Other families",
+    "status": "Vulnerable",
+    "count": 16
+  },
+  {
+    "family": "Other families",
+    "status": "Extinct",
+    "count": 5
+  },
+  {
+    "family": "Potoroidae",
+    "status": "Critically Endangered",
+    "count": 1
+  },
+  {
+    "family": "Potoroidae",
+    "status": "Endangered",
+    "count": 3
+  },
+  {
+    "family": "Potoroidae",
+    "status": "Vulnerable",
+    "count": 4
+  },
+  {
+    "family": "Potoroidae",
+    "status": "Extinct",
+    "count": 7
+  },
+  {
+    "family": "Macropodidae",
+    "status": "Critically Endangered",
+    "count": 1
+  },
+  {
+    "family": "Macropodidae",
+    "status": "Endangered",
+    "count": 8
+  },
+  {
+    "family": "Macropodidae",
+    "status": "Vulnerable",
+    "count": 13
+  },
+  {
+    "family": "Macropodidae",
+    "status": "Extinct",
+    "count": 6
+  },
+  {
+    "family": "Dasyuridae",
+    "status": "Endangered",
+    "count": 11
+  },
+  {
+    "family": "Dasyuridae",
+    "status": "Vulnerable",
+    "count": 9
+  },
+  {
+    "family": "Peramelidae",
+    "status": "Endangered",
+    "count": 3
+  },
+  {
+    "family": "Peramelidae",
+    "status": "Vulnerable",
+    "count": 4
+  },
+  {
+    "family": "Peramelidae",
+    "status": "Extinct",
+    "count": 7
+  }
+]

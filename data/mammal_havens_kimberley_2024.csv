@@ -1,0 +1,31 @@
+name,type,type_label,state,verified_lat,verified_lon,x,y,n_species,coordinate_source,species
+"Adolphus Is, Kimberley",island,Cat-free island,WA,-15.123098224,128.15595294,262.48,62.78,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Augustus Is, Kimberley",island,Cat-free island,WA,-15.3606454767,124.551689889,224.02,65.41,5,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden Bandicoot; Golden-backed Tree-rat; Nabarlek (Kimberley); Pale Field-rat (north-western)
+Berthier,island,Cat-free island,WA,-14.5099823048,124.989605726,228.7,56.01,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Bigge Is, Kimberley",island,Cat-free island,WA,-14.5553665877,125.156316275,230.47,56.51,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Boongaree Is, Kimberley",island,Cat-free island,WA,-15.0801765833,125.18784238,230.81,62.31,2,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Pale Field-rat (north-western)
+"Borda Is, Kimberley",island,Cat-free island,WA,-14.2368356624,126.019118224,239.68,53.0,1,2024 Appendix 4 (DEWHA island ID),Nabarlek (Kimberley)
+"Caffarelli Is, Kimberley",island,Cat-free island,WA,-16.0403102432,123.293444721,210.6,72.94,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Capstan Is, Kimberley",island,Cat-free island,WA,-14.5774392366,125.268684556,231.67,56.76,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Carlia Is, Kimberley",island,Cat-free island,WA,-14.3753093828,125.984285572,239.31,54.53,2,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden-backed Tree-rat
+Chambers Is,island,Cat-free island,WA,-16.2679312132,123.530105833,213.12,75.47,2,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden-backed Tree-rat
+Cockatoo,island,Cat-free island,WA,-16.0954394931,123.614396954,214.02,73.55,1,2024 Appendix 4 (DEWHA island ID),Golden-backed Tree-rat
+"Conilurus Is, Kimberley (also known as Margaret Island)",island,Cat-free island,WA,-16.1542867207,123.584531009,213.7,74.21,1,2024 Appendix 4 (DEWHA island ID),Golden-backed Tree-rat
+"Hidden Is, Kimberley",island,Cat-free island,WA,-16.2435371163,123.482939345,212.62,75.2,3,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden-backed Tree-rat; Nabarlek (Kimberley)
+"Jar Is, Kimberley",island,Cat-free island,WA,-14.1545298704,126.237305903,242.01,52.1,1,2024 Appendix 4 (DEWHA island ID),Golden-backed Tree-rat
+"Jungulu Is, Kimberley",island,Cat-free island,WA,-15.2961716497,124.407606644,222.49,64.7,1,2024 Appendix 4 (DEWHA island ID),Nabarlek (Kimberley)
+"Koolan Is, Kimberley",island,Cat-free island,WA,-16.1303867804,123.752830193,215.5,73.94,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Lachlan Is, Kimberely",island,Cat-free island,WA,-16.6248607471,123.499581419,212.8,79.44,2,2024 Appendix 4 (DEWHA island ID),Golden Bandicoot; Golden-backed Tree-rat
+"Long Is, Kimberley",island,Cat-free island,WA,-16.5701727799,123.36903071,211.4,78.83,1,2024 Appendix 4 (DEWHA island ID),Nabarlek (Kimberley)
+"Molema Is, Kimberley",island,Cat-free island,WA,-16.2615769116,123.905175175,217.12,75.4,2,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Pale Field-rat (north-western)
+"Naturalists Is, Kimberley",island,Cat-free island,WA,-15.0197909755,125.359903766,232.65,61.64,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Northwest Molema, Kimberley",island,Cat-free island,WA,-16.232902,123.859465,216.64,75.08,1,2024 Appendix 10,Pale Field-rat (north-western)
+"Purrungku Is, Kimberley",island,Cat-free island,WA,-14.6401753117,125.236776604,231.33,57.45,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Sheep Is, Kimberley",island,Cat-free island,WA,-15.4882973354,124.614037367,224.69,66.82,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Sir Frederick is, Kimberley",island,Cat-free island,WA,-16.1244591605,123.403585227,211.77,73.88,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"St Andrew, Kimberley",island,Cat-free island,WA,-15.351827216,125.013718678,228.95,65.31,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Storr Is, Kimberley",island,Cat-free island,WA,-15.9393535559,124.567336593,224.19,71.82,2,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden Bandicoot
+Tarrant Is (satellite of Koolan),island,Cat-free island,WA,-16.1105016463,123.678633872,214.71,73.72,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Unnamed island, Scott Strait, Kimberley",island,Cat-free island,WA,-14.611,125.241,231.38,57.13,2,2024 Appendix 10,Golden-backed Tree-rat; Pale Field-rat (north-western)
+"Uwins Is, Kimberley",island,Cat-free island,WA,-15.2661913784,124.820331544,226.89,64.36,3,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden Bandicoot; Golden-backed Tree-rat
+"Wollaston Is, Kimberley",island,Cat-free island,WA,-14.496426727,125.470240087,233.82,55.86,2,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden-backed Tree-rat

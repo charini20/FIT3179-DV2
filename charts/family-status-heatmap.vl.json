@@ -1,0 +1,392 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Percentages of national conservation-listed entries within each of the top five mammal families; hover for exact counts and denominators. Comparison of listed entries, not risk across all species in a family. The Bandicoots × Extinct cell is outlined to highlight its 50% extinct share.",
+  "background": null,
+  "width": 266,
+  "height": 234,
+  "padding": {
+    "top": 9,
+    "left": 12,
+    "right": 8,
+    "bottom": 5
+  },
+  "data": {
+    "values": [
+      {
+        "family": "Muridae",
+        "status": "Critically Endangered",
+        "status_label": "Critical",
+        "count": 1,
+        "total": 33,
+        "percentage": 3.0,
+        "share_label": "3%",
+        "tooltip_share": "3.0% of Muridae entries",
+        "common_family": "Rodents"
+      },
+      {
+        "family": "Muridae",
+        "status": "Endangered",
+        "status_label": "Endangered",
+        "count": 7,
+        "total": 33,
+        "percentage": 21.2,
+        "share_label": "21.2%",
+        "tooltip_share": "21.2% of Muridae entries",
+        "common_family": "Rodents"
+      },
+      {
+        "family": "Muridae",
+        "status": "Vulnerable",
+        "status_label": "Vulnerable",
+        "count": 11,
+        "total": 33,
+        "percentage": 33.3,
+        "share_label": "33.3%",
+        "tooltip_share": "33.3% of Muridae entries",
+        "common_family": "Rodents"
+      },
+      {
+        "family": "Muridae",
+        "status": "Extinct",
+        "status_label": "Extinct",
+        "count": 14,
+        "total": 33,
+        "percentage": 42.4,
+        "share_label": "42.4%",
+        "tooltip_share": "42.4% of Muridae entries",
+        "common_family": "Rodents"
+      },
+      {
+        "family": "Macropodidae",
+        "status": "Critically Endangered",
+        "status_label": "Critical",
+        "count": 1,
+        "total": 28,
+        "percentage": 3.6,
+        "share_label": "3.6%",
+        "tooltip_share": "3.6% of Macropodidae entries",
+        "common_family": "Kangaroos / wallabies"
+      },
+      {
+        "family": "Macropodidae",
+        "status": "Endangered",
+        "status_label": "Endangered",
+        "count": 8,
+        "total": 28,
+        "percentage": 28.6,
+        "share_label": "28.6%",
+        "tooltip_share": "28.6% of Macropodidae entries",
+        "common_family": "Kangaroos / wallabies"
+      },
+      {
+        "family": "Macropodidae",
+        "status": "Vulnerable",
+        "status_label": "Vulnerable",
+        "count": 13,
+        "total": 28,
+        "percentage": 46.4,
+        "share_label": "46.4%",
+        "tooltip_share": "46.4% of Macropodidae entries",
+        "common_family": "Kangaroos / wallabies"
+      },
+      {
+        "family": "Macropodidae",
+        "status": "Extinct",
+        "status_label": "Extinct",
+        "count": 6,
+        "total": 28,
+        "percentage": 21.4,
+        "share_label": "21.4%",
+        "tooltip_share": "21.4% of Macropodidae entries",
+        "common_family": "Kangaroos / wallabies"
+      },
+      {
+        "family": "Dasyuridae",
+        "status": "Critically Endangered",
+        "status_label": "Critical",
+        "count": 0,
+        "total": 20,
+        "percentage": 0.0,
+        "share_label": "0%",
+        "tooltip_share": "0.0% of Dasyuridae entries",
+        "common_family": "Quolls / dunnarts"
+      },
+      {
+        "family": "Dasyuridae",
+        "status": "Endangered",
+        "status_label": "Endangered",
+        "count": 11,
+        "total": 20,
+        "percentage": 55.0,
+        "share_label": "55%",
+        "tooltip_share": "55.0% of Dasyuridae entries",
+        "common_family": "Quolls / dunnarts"
+      },
+      {
+        "family": "Dasyuridae",
+        "status": "Vulnerable",
+        "status_label": "Vulnerable",
+        "count": 9,
+        "total": 20,
+        "percentage": 45.0,
+        "share_label": "45%",
+        "tooltip_share": "45.0% of Dasyuridae entries",
+        "common_family": "Quolls / dunnarts"
+      },
+      {
+        "family": "Dasyuridae",
+        "status": "Extinct",
+        "status_label": "Extinct",
+        "count": 0,
+        "total": 20,
+        "percentage": 0.0,
+        "share_label": "0%",
+        "tooltip_share": "0.0% of Dasyuridae entries",
+        "common_family": "Quolls / dunnarts"
+      },
+      {
+        "family": "Potoroidae",
+        "status": "Critically Endangered",
+        "status_label": "Critical",
+        "count": 1,
+        "total": 15,
+        "percentage": 6.7,
+        "share_label": "6.7%",
+        "tooltip_share": "6.7% of Potoroidae entries",
+        "common_family": "Potoroos / bettongs"
+      },
+      {
+        "family": "Potoroidae",
+        "status": "Endangered",
+        "status_label": "Endangered",
+        "count": 3,
+        "total": 15,
+        "percentage": 20.0,
+        "share_label": "20%",
+        "tooltip_share": "20.0% of Potoroidae entries",
+        "common_family": "Potoroos / bettongs"
+      },
+      {
+        "family": "Potoroidae",
+        "status": "Vulnerable",
+        "status_label": "Vulnerable",
+        "count": 4,
+        "total": 15,
+        "percentage": 26.7,
+        "share_label": "26.7%",
+        "tooltip_share": "26.7% of Potoroidae entries",
+        "common_family": "Potoroos / bettongs"
+      },
+      {
+        "family": "Potoroidae",
+        "status": "Extinct",
+        "status_label": "Extinct",
+        "count": 7,
+        "total": 15,
+        "percentage": 46.7,
+        "share_label": "46.7%",
+        "tooltip_share": "46.7% of Potoroidae entries",
+        "common_family": "Potoroos / bettongs"
+      },
+      {
+        "family": "Peramelidae",
+        "status": "Critically Endangered",
+        "status_label": "Critical",
+        "count": 0,
+        "total": 14,
+        "percentage": 0.0,
+        "share_label": "0%",
+        "tooltip_share": "0.0% of Peramelidae entries",
+        "common_family": "Bandicoots"
+      },
+      {
+        "family": "Peramelidae",
+        "status": "Endangered",
+        "status_label": "Endangered",
+        "count": 3,
+        "total": 14,
+        "percentage": 21.4,
+        "share_label": "21.4%",
+        "tooltip_share": "21.4% of Peramelidae entries",
+        "common_family": "Bandicoots"
+      },
+      {
+        "family": "Peramelidae",
+        "status": "Vulnerable",
+        "status_label": "Vulnerable",
+        "count": 4,
+        "total": 14,
+        "percentage": 28.6,
+        "share_label": "28.6%",
+        "tooltip_share": "28.6% of Peramelidae entries",
+        "common_family": "Bandicoots"
+      },
+      {
+        "family": "Peramelidae",
+        "status": "Extinct",
+        "status_label": "Extinct",
+        "count": 7,
+        "total": 14,
+        "percentage": 50.0,
+        "share_label": "50%",
+        "tooltip_share": "50.0% of Peramelidae entries",
+        "common_family": "Bandicoots"
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "status_label",
+      "type": "ordinal",
+      "sort": [
+        "Critical",
+        "Endangered",
+        "Vulnerable",
+        "Extinct"
+      ],
+      "axis": {
+        "title": null,
+        "orient": "top",
+        "labelAngle": 0,
+        "labelPadding": 9,
+        "labelColor": "#445675",
+        "labelFontSize": 10.5,
+        "labelFontWeight": 700,
+        "labelLimit": 94,
+        "domain": false,
+        "ticks": false,
+        "labelExpr": "datum.label === 'Critical' ? ['Critically','endangered'] : datum.label",
+        "labelLineHeight": 11
+      }
+    },
+    "y": {
+      "field": "common_family",
+      "type": "ordinal",
+      "sort": [
+        "Rodents",
+        "Kangaroos / wallabies",
+        "Quolls / dunnarts",
+        "Potoroos / bettongs",
+        "Bandicoots"
+      ],
+      "axis": {
+        "title": null,
+        "labelPadding": 9,
+        "labelColor": "#24375C",
+        "labelFontSize": 10.6,
+        "labelFontWeight": 700,
+        "labelLimit": 185,
+        "domain": false,
+        "ticks": false,
+        "labelExpr": "datum.label === 'Kangaroos / wallabies' ? ['Kangaroos', '/ wallabies'] : datum.label === 'Potoroos / bettongs' ? ['Potoroos', '/ bettongs'] : datum.label",
+        "labelLineHeight": 13
+      }
+    },
+    "tooltip": [
+      {
+        "field": "family",
+        "type": "nominal",
+        "title": "Family"
+      },
+      {
+        "field": "status",
+        "type": "nominal",
+        "title": "Conservation category"
+      },
+      {
+        "field": "count",
+        "type": "quantitative",
+        "title": "Listed entries",
+        "format": ".0f"
+      },
+      {
+        "field": "total",
+        "type": "quantitative",
+        "title": "Family entries",
+        "format": ".0f"
+      },
+      {
+        "field": "percentage",
+        "type": "quantitative",
+        "title": "Share within family",
+        "format": ".1f"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "cornerRadius": 0,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 0.7
+      },
+      "encoding": {
+        "color": {
+          "field": "percentage",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              55
+            ],
+            "range": [
+              "#EDF3FD",
+              "#B9CDEA",
+              "#7695CC",
+              "#375A9C"
+            ]
+          },
+          "legend": null
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "baseline": "middle"
+      },
+      "encoding": {
+        "text": {
+          "field": "share_label",
+          "type": "nominal"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.percentage >= 34",
+            "value": "#FFFFFF"
+          },
+          "value": "#263C60"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.common_family === 'Bandicoots' && datum.status === 'Extinct'"
+        }
+      ],
+      "mark": {
+        "type": "rect",
+        "fillOpacity": 0,
+        "stroke": "#C1789B",
+        "strokeWidth": 3,
+        "cornerRadius": 0
+      },
+      "encoding": {}
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "DM Sans"
+  },
+  "autosize": {
+    "type": "pad",
+    "contains": "padding"
+  }
+}

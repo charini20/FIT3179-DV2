@@ -1,0 +1,5 @@
+group,mass,order,unchange,manchange,un_taxa,man_taxa,un_series,man_series
+All monitored mammals,All sizes,1,-63,8,42,40,1545,263
+Small mammals,<35 g,2,-96,-98,5,3,113,61
+Medium mammals,"35–5,500 g",3,-55,40,34,31,1200,188
+Large mammals,">5,500 g",4,-61,48,3,6,232,14

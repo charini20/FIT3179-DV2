@@ -1,0 +1,50 @@
+[
+  {
+    "state": "Western Australia",
+    "abbr": "WA",
+    "count": 48,
+    "circle_radius_svg_units": 28.7
+  },
+  {
+    "state": "Northern Territory",
+    "abbr": "NT",
+    "count": 33,
+    "circle_radius_svg_units": 23.8
+  },
+  {
+    "state": "Queensland",
+    "abbr": "QLD",
+    "count": 49,
+    "circle_radius_svg_units": 29.0
+  },
+  {
+    "state": "South Australia",
+    "abbr": "SA",
+    "count": 40,
+    "circle_radius_svg_units": 26.2
+  },
+  {
+    "state": "New South Wales",
+    "abbr": "NSW",
+    "count": 43,
+    "circle_radius_svg_units": 27.17
+  },
+  {
+    "state": "Victoria",
+    "abbr": "VIC",
+    "count": 28,
+    "circle_radius_svg_units": 21.92
+  },
+  {
+    "state": "Tasmania",
+    "abbr": "TAS",
+    "count": 11,
+    "circle_radius_svg_units": 13.74
+  },
+  {
+    "state": "Australian Capital Territory",
+    "abbr": "ACT",
+    "count": 12,
+    "circle_radius_svg_units": 14.35
+  }
+]

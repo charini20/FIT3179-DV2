@@ -1,0 +1,125 @@
+name,type,type_label,state,verified_lat,verified_lon,x,y,n_species,coordinate_source,species
+Mulligan's Flat Goorrooyaroo Woodland Sanctuary,fenced,Fenced mainland haven,ACT,-35.163,149.158,486.59,300.76,3,2024 Appendix 6,Eastern Bettong; Eastern Quoll; New Holland Mouse
+Barrington Tops Wildlife Sanctuary,fenced,Fenced mainland haven,NSW,-31.834,151.452,511.07,258.15,2,2024 Appendix 6,"Eastern Quoll; Long-nosed Potoroo (south-eastern Queensland, north-eastern New South Wales)"
+Mallee Cliffs,fenced,Fenced mainland haven,NSW,-34.2171,142.5369,415.94,288.49,7,2024 Appendix 6,Boodie (Shark Bay); Greater Stick-nest Rat; Western Barred Bandicoot; Woylie; Bilby; Numbat; Red-tailed Phascogale
+Pilliga,fenced,Fenced mainland haven,NSW,-30.5461,149.2662,487.75,242.09,4,2024 Appendix 6,Western Barred Bandicoot; Woylie; Bilby; Plains Mouse
+Scotia,fenced,Fenced mainland haven,NSW,-33.155,141.163,401.28,274.87,4,2024 Appendix 6,Boodie (Shark Bay); Woylie; Bilby; Numbat
+"Wild Deserts, Sturt NP",fenced,Fenced mainland haven,NSW,-29.10711,141.08217,400.42,224.39,5,2024 Appendix 6,Western Barred Bandicoot; Golden Bandicoot; Bilby; Dusky Hopping-mouse; Plains Mouse
+Newhaven,fenced,Fenced mainland haven,NT,-22.7299,131.2282,295.27,148.67,9,2024 Appendix 6,"Boodie (Shark Bay); Mala; Central Rock-rat; Woylie; Golden Bandicoot; Bilby; Numbat; Black-footed Rock-wallaby (MacDonnell Ranges), Warru; Red-tailed Phascogale"
+Currawinya,fenced,Fenced mainland haven,QLD,-28.783,144.478,436.65,220.44,1,2024 Appendix 6,Bilby
+Mt Zero-Taravale,fenced,Fenced mainland haven,QLD,-19.1418,146.0679,453.62,107.67,1,2024 Appendix 6,Northern Bettong
+APY Lands Pintji fence,fenced,Fenced mainland haven,SA,-26.188,132.346,307.19,189.22,1,2024 Appendix 6,"Black-footed Rock-wallaby (MacDonnell Ranges), Warru"
+Arid Recovery,fenced,Fenced mainland haven,SA,-30.325,136.918,355.98,239.35,6,2024 Appendix 6,"Boodie (Shark Bay); Western Barred Bandicoot; Kowari; Chuditch, Western Quoll; Bilby; Plains Mouse"
+Mallee Refuge-Secret Rocks,fenced,Fenced mainland haven,SA,-33.196,136.817,354.9,275.39,1,2024 Appendix 6,Western Barred Bandicoot
+Venus Bay CP,fenced,Fenced mainland haven,SA,-33.21,134.621,331.47,275.57,2,2024 Appendix 6,Woylie; Bilby
+Yookamurra Sanctuary,fenced,Fenced mainland haven,SA,-34.519,139.457,383.08,292.39,4,2024 Appendix 6,Boodie (Shark Bay); Woylie; Bilby; Numbat
+Hamilton Community Parkland,fenced,Fenced mainland haven,VIC,-37.723,142.023,410.46,334.73,1,2024 Appendix 6,Eastern Barred Bandicoot (Victoria)
+Mount Rothwell Conservation and Research Centre,fenced,Fenced mainland haven,VIC,-37.898,144.435,436.19,337.09,3,2024 Appendix 6,Eastern Quoll; Eastern Barred Bandicoot (Victoria); Long-nosed Potoroo (south-eastern mainland)
+Tiverton,fenced,Fenced mainland haven,VIC,-37.831,143.001,420.89,336.19,1,2024 Appendix 6,Eastern Barred Bandicoot (Victoria)
+"Woodlands Historic Park, near Tullamurine",fenced,Fenced mainland haven,VIC,-37.637,144.846,440.58,333.57,1,2024 Appendix 6,Eastern Barred Bandicoot (Victoria)
+Dryandra,fenced,Fenced mainland haven,WA,-32.782,116.932,142.71,270.12,4,2024 Appendix 6,"Woylie; Chuditch, Western Quoll; Numbat; Red-tailed Phascogale"
+Karakamia,fenced,Fenced mainland haven,WA,-31.821,116.254,135.48,257.99,2,2024 Appendix 6,Woylie; Western Ringtail Possum
+Matuwa (Lorna Glen),fenced,Fenced mainland haven,WA,-26.225,121.555,192.05,189.66,5,2024 Appendix 6,Boodie (Shark Bay); Boodie (Barrow Island); Mala; Golden Bandicoot; Bilby
+Mt Gibson,fenced,Fenced mainland haven,WA,-29.641,117.419,147.91,230.93,9,2024 Appendix 6,"Banded Hare-wallaby; Greater Stick-nest Rat; Western Barred Bandicoot; Djoongari, Shark Bay Mouse; Woylie; Chuditch, Western Quoll; Bilby; Numbat; Red-tailed Phascogale"
+Perup Sanctuary,fenced,Fenced mainland haven,WA,-34.27,116.631,139.5,289.17,4,2024 Appendix 6,Woylie; Numbat; Wambenga  (south-western Australia); Western Ringtail Possum
+Wadderin Sanctuary,fenced,Fenced mainland haven,WA,-31.997,118.445,158.86,260.2,3,2024 Appendix 6,Banded Hare-wallaby; Woylie; Red-tailed Phascogale
+Waychinicup,fenced,Fenced mainland haven,WA,-34.886,118.359,157.94,297.15,3,2024 Appendix 6,Gilbert's Potoroo; Dibbler; Quokka
+Whiteman Park,fenced,Fenced mainland haven,WA,-31.851,115.92,131.92,258.37,2,2024 Appendix 6,Woylie; Dibbler
+Angarmbulumardja Is (Angarmbulluma),island,Cat-free island,NT,-13.6651264801,136.636067866,352.97,46.72,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Astell Is, The English Companys Islands",island,Cat-free island,NT,-11.8868405735,136.40832013,350.54,27.26,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+Bentinck,island,Cat-free island,NT,-17.067632459,139.490609257,383.43,84.38,1,2024 Appendix 4 (DEWHA island ID),"Brush-tailed Rabbit-rat (Kimberley, Top End)"
+Black Craggy Is,island,Cat-free island,NT,-15.6029979647,136.665173542,353.28,68.09,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Centre Is, Pellews",island,Cat-free island,NT,-15.6935517153,136.773097994,354.44,69.1,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+Channel,island,Cat-free island,NT,-12.5528746349,130.866991401,291.41,34.53,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+Finch is,island,Cat-free island,NT,-13.7257416838,136.576250812,352.33,47.38,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Guluwuru Is, Wessels",island,Cat-free island,NT,-11.5221267368,136.424195366,350.71,23.29,1,2024 Appendix 4 (DEWHA island ID),Golden Bandicoot
+"Inglis Is, The English Compansy Islands",island,Cat-free island,NT,-12.0314942145,136.22126886,348.55,28.84,2,2024 Appendix 4 (DEWHA island ID),"Brush-tailed Rabbit-rat (Kimberley, Top End); Northern Quoll"
+Island 149,island,Cat-free island,NT,-13.0657,136.65,353.12,40.14,1,2024 Appendix 10,Northern Quoll
+Island 158,island,Cat-free island,NT,-13.693,136.738,354.06,47.02,1,2024 Appendix 10,Northern Quoll
+"Marchinbar Is, The Wessels",island,Cat-free island,NT,-11.2716692541,136.62386445,352.84,20.56,2,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden Bandicoot
+"North Island, Pellews",island,Cat-free island,NT,-15.5826796698,136.865468058,355.42,67.87,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+North Point Is,island,Cat-free island,NT,-13.6277649653,136.69499227,353.6,46.31,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+North-east Isle,island,Cat-free island,NT,-13.6379551557,136.944660522,356.27,46.42,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Pobasso Is, The English Company Islands",island,Cat-free island,NT,-11.9108123514,136.44860041,350.97,27.52,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Quoin Is, Joseph Bonaparte Gulf",island,Cat-free island,NT,-14.8648341704,129.554746392,277.41,59.93,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Raragala Is, Wessells",island,Cat-free island,NT,-11.6205380936,136.272020365,349.09,24.36,1,2024 Appendix 4 (DEWHA island ID),Golden Bandicoot
+Skull Is,island,Cat-free island,NT,-15.6025321854,136.798507079,354.71,68.09,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+Vic 1 Joseph Bonaparte Gulf,island,Cat-free island,NT,-14.877511,129.5603,277.47,60.07,1,2024 Appendix 10,Pale Field-rat (north-western)
+Watson Is,island,Cat-free island,NT,-15.5721871288,136.81374724,354.87,67.75,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+Franklin Is - West,island,Cat-free island,SA,-32.4561854236,133.639916783,321.0,266.0,1,2024 Appendix 4 (DEWHA island ID),Greater Stick-nest Rat
+Franklin Is - east,island,Cat-free island,SA,-32.444008524,133.670785846,321.33,265.84,1,2024 Appendix 4 (DEWHA island ID),Greater Stick-nest Rat
+"Reevesby Is, Sir Joseph Banks Group",island,Cat-free island,SA,-34.5250698076,136.282279524,349.2,292.47,1,2024 Appendix 4 (DEWHA island ID),Greater Stick-nest Rat
+"St Peter Is, Nuyts Archipelago",island,Cat-free island,SA,-32.2798848436,133.585508686,320.42,263.77,2,2024 Appendix 4 (DEWHA island ID),Greater Stick-nest Rat; Woylie
+Thistle Is,island,Cat-free island,SA,-34.9983227087,136.145519904,347.74,298.62,1,2024 Appendix 4 (DEWHA island ID),Bilby
+Venus Bay Island A,island,Cat-free island,SA,-33.1697987955,134.603924113,331.29,275.06,1,2024 Appendix 4 (DEWHA island ID),Woylie
+"Wedge Is, Gambier islands",island,Cat-free island,SA,-35.1575984801,136.46697821,351.17,300.69,1,2024 Appendix 4 (DEWHA island ID),Woylie
+"Churchill Island, off Phillip Is., Western Port",island,Cat-free island,VIC,-38.5007873353,145.338997864,445.84,345.28,1,2024 Appendix 4 (DEWHA island ID),Eastern Barred Bandicoot (Victoria)
+"Adolphus Is, Kimberley",island,Cat-free island,WA,-15.123098224,128.15595294,262.48,62.78,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Alpha Is, Montebellos",island,Cat-free island,WA,-20.4093159656,115.526859854,127.72,122.04,1,2024 Appendix 4 (DEWHA island ID),Boodie (Barrow Island)
+"Angel, Pilbara",island,Cat-free island,WA,-20.4931021319,116.805069196,141.36,122.99,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Ashburton, Pilbara",island,Cat-free island,WA,-21.591824198,114.935466049,121.41,135.56,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Augustus Is, Kimberley",island,Cat-free island,WA,-15.3606454767,124.551689889,224.02,65.41,5,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden Bandicoot; Golden-backed Tree-rat; Nabarlek (Kimberley); Pale Field-rat (north-western)
+Bald Is,island,Cat-free island,WA,-34.9193863773,118.462958084,159.05,297.59,2,2024 Appendix 4 (DEWHA island ID),Gilbert's Potoroo; Quokka
+"Barrow Is, Pilbara",island,Cat-free island,WA,-20.7881721348,115.399720995,126.36,126.36,3,2024 Appendix 4 (DEWHA island ID),Boodie (Barrow Island); Golden Bandicoot; Spectacled Hare-wallaby (Barrow Island)
+"Bernier Is, Shark Bay",island,Cat-free island,WA,-24.8584306392,113.14230178,102.27,173.49,5,2024 Appendix 4 (DEWHA island ID),"Boodie (Shark Bay); Rufous Hare-wallaby (Shark Bay); Banded Hare-wallaby; Western Barred Bandicoot; Djoongari, Shark Bay Mouse"
+Berthier,island,Cat-free island,WA,-14.5099823048,124.989605726,228.7,56.01,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Bigge Is, Kimberley",island,Cat-free island,WA,-14.5553665877,125.156316275,230.47,56.51,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+Boodie Is,island,Cat-free island,WA,-20.9626768537,115.327490504,125.59,128.35,1,2024 Appendix 4 (DEWHA island ID),Boodie (Barrow Island)
+"Boongaree Is, Kimberley",island,Cat-free island,WA,-15.0801765833,125.18784238,230.81,62.31,2,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Pale Field-rat (north-western)
+"Borda Is, Kimberley",island,Cat-free island,WA,-14.2368356624,126.019118224,239.68,53.0,1,2024 Appendix 4 (DEWHA island ID),Nabarlek (Kimberley)
+Boullanger Is,island,Cat-free island,WA,-30.3167353105,115.003629332,122.14,239.25,1,2024 Appendix 4 (DEWHA island ID),Dibbler
+"Buttercup, Montebello",island,Cat-free island,WA,-20.485,115.536,127.82,122.9,1,2024 Appendix 10,Golden Bandicoot
+"Caffarelli Is, Kimberley",island,Cat-free island,WA,-16.0403102432,123.293444721,210.6,72.94,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Capstan Is, Kimberley",island,Cat-free island,WA,-14.5774392366,125.268684556,231.67,56.76,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Carlia Is, Kimberley",island,Cat-free island,WA,-14.3753093828,125.984285572,239.31,54.53,2,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden-backed Tree-rat
+Chambers Is,island,Cat-free island,WA,-16.2679312132,123.530105833,213.12,75.47,2,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden-backed Tree-rat
+Cockatoo,island,Cat-free island,WA,-16.0954394931,123.614396954,214.02,73.55,1,2024 Appendix 4 (DEWHA island ID),Golden-backed Tree-rat
+"Conilurus Is, Kimberley (also known as Margaret Island)",island,Cat-free island,WA,-16.1542867207,123.584531009,213.7,74.21,1,2024 Appendix 4 (DEWHA island ID),Golden-backed Tree-rat
+Dirk Hartog,island,Cat-free island,WA,-25.7936818889,113.054037049,101.33,184.54,6,2024 Appendix 4 (DEWHA island ID),"Rufous Hare-wallaby (Shark Bay); Banded Hare-wallaby; Greater Stick-nest Rat; Western Barred Bandicoot; Djoongari, Shark Bay Mouse; Dibbler"
+"Doole Is, Exmouth Gulf",island,Cat-free island,WA,-22.4669644647,114.16335868,113.17,145.63,1,2024 Appendix 4 (DEWHA island ID),Golden Bandicoot
+"Dorre Is, Shark Bay",island,Cat-free island,WA,-25.1191138423,113.100249316,101.83,176.56,4,2024 Appendix 4 (DEWHA island ID),Boodie (Shark Bay); Rufous Hare-wallaby (Shark Bay); Banded Hare-wallaby; Western Barred Bandicoot
+"East Lewis, Pilbara",island,Cat-free island,WA,-20.6120120047,116.657962629,139.79,124.35,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Enderby, Pilbara",island,Cat-free island,WA,-20.6009979298,116.52046825,138.32,124.22,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+Escape Is,island,Cat-free island,WA,-30.3331027709,114.986177966,121.95,239.45,1,2024 Appendix 4 (DEWHA island ID),Dibbler
+"Faure Is, Shark Bay",island,Cat-free island,WA,-25.8486427659,113.888282852,110.23,185.19,4,2024 Appendix 4 (DEWHA island ID),"Boodie (Shark Bay); Banded Hare-wallaby; Western Barred Bandicoot; Djoongari, Shark Bay Mouse"
+"Fortescue Is, Pilbara",island,Cat-free island,WA,-20.9082753813,116.036825138,133.16,127.73,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Gidley, Pilbara",island,Cat-free island,WA,-20.4504851416,116.818135448,141.5,122.51,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Gunton Is, south coast",island,Cat-free island,WA,-34.0310511828,122.154285541,198.44,286.09,1,2024 Appendix 4 (DEWHA island ID),Dibbler
+"Hauy Is, Pilbara",island,Cat-free island,WA,-20.4342142197,116.967278186,143.09,122.32,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+Hermite Is,island,Cat-free island,WA,-20.4627037528,115.528878912,127.74,122.65,2,2024 Appendix 4 (DEWHA island ID),Golden Bandicoot; Spectacled Hare-wallaby (Barrow Island)
+"Hidden Is, Kimberley",island,Cat-free island,WA,-16.2435371163,123.482939345,212.62,75.2,3,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden-backed Tree-rat; Nabarlek (Kimberley)
+"Jar Is, Kimberley",island,Cat-free island,WA,-14.1545298704,126.237305903,242.01,52.1,1,2024 Appendix 4 (DEWHA island ID),Golden-backed Tree-rat
+"Jungulu Is, Kimberley",island,Cat-free island,WA,-15.2961716497,124.407606644,222.49,64.7,1,2024 Appendix 4 (DEWHA island ID),Nabarlek (Kimberley)
+"Koolan Is, Kimberley",island,Cat-free island,WA,-16.1303867804,123.752830193,215.5,73.94,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Lachlan Is, Kimberely",island,Cat-free island,WA,-16.6248607471,123.499581419,212.8,79.44,2,2024 Appendix 4 (DEWHA island ID),Golden Bandicoot; Golden-backed Tree-rat
+"Legendre Is, Dampier Archipelago",island,Cat-free island,WA,-20.3863097756,116.879670506,142.16,121.78,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Long Is, Kimberley",island,Cat-free island,WA,-16.5701727799,123.36903071,211.4,78.83,1,2024 Appendix 4 (DEWHA island ID),Nabarlek (Kimberley)
+"Malus Is, Pilbara",island,Cat-free island,WA,-20.5136877955,116.682489644,140.05,123.23,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Middle Is, Pilbara",island,Cat-free island,WA,-20.911955107,115.327610984,125.59,127.77,1,2024 Appendix 4 (DEWHA island ID),Golden Bandicoot
+"Middle Is, Recherce ",island,Cat-free island,WA,-34.1025479253,123.189080662,209.48,287.01,1,2024 Appendix 4 (DEWHA island ID),Gilbert's Potoroo
+"Middle Mangrove, Pilbara",island,Cat-free island,WA,-21.4802334706,115.355408607,125.89,134.28,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Molema Is, Kimberley",island,Cat-free island,WA,-16.2615769116,123.905175175,217.12,75.4,2,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Pale Field-rat (north-western)
+"Naturalists Is, Kimberley",island,Cat-free island,WA,-15.0197909755,125.359903766,232.65,61.64,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"North Malus, Pilbara",island,Cat-free island,WA,-20.505507,116.653476,139.74,123.14,1,2024 Appendix 10,Pale Field-rat (north-western)
+"North Mangrove, Pilbara",island,Cat-free island,WA,-21.4553234212,115.370216764,126.05,133.99,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"North-West Is, Montebellos",island,Cat-free island,WA,-20.3641504217,115.526507649,127.72,121.53,1,2024 Appendix 4 (DEWHA island ID),"Djoongari, Shark Bay Mouse"
+"Northwest Molema, Kimberley",island,Cat-free island,WA,-16.232902,123.859465,216.64,75.08,1,2024 Appendix 10,Pale Field-rat (north-western)
+"Purrungku Is, Kimberley",island,Cat-free island,WA,-14.6401753117,125.236776604,231.33,57.45,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Roberts Is, Pilbara",island,Cat-free island,WA,-22.4183372434,114.184857498,113.4,145.07,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+Rottnest Is,island,Cat-free island,WA,-32.0060993216,115.512367411,127.57,260.32,1,2024 Appendix 4 (DEWHA island ID),Quokka
+Salutation Is,island,Cat-free island,WA,-26.5397193762,113.768036354,108.95,193.41,1,2024 Appendix 4 (DEWHA island ID),Greater Stick-nest Rat
+"Sheep Is, Kimberley",island,Cat-free island,WA,-15.4882973354,124.614037367,224.69,66.82,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Sir Frederick is, Kimberley",island,Cat-free island,WA,-16.1244591605,123.403585227,211.77,73.88,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Southwest Regnard Is, Pilbara",island,Cat-free island,WA,-20.8089064212,116.244931356,135.38,126.6,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"St Andrew, Kimberley",island,Cat-free island,WA,-15.351827216,125.013718678,228.95,65.31,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Storr Is, Kimberley",island,Cat-free island,WA,-15.9393535559,124.567336593,224.19,71.82,2,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden Bandicoot
+Tarrant Is (satellite of Koolan),island,Cat-free island,WA,-16.1105016463,123.678633872,214.71,73.72,1,2024 Appendix 4 (DEWHA island ID),Northern Quoll
+"Trimouille Is, Montebellos",island,Cat-free island,WA,-20.3964394273,115.566539704,128.14,121.89,1,2024 Appendix 4 (DEWHA island ID),Mala
+"Unnamed island, Scott Strait, Kimberley",island,Cat-free island,WA,-14.611,125.241,231.38,57.13,2,2024 Appendix 10,Golden-backed Tree-rat; Pale Field-rat (north-western)
+"Unnamed, Little Roberts, Pilbara",island,Cat-free island,WA,-22.4,114.184,113.39,144.86,1,2024 Appendix 10,Pale Field-rat (north-western)
+"Unnamed, NE of West Lewis",island,Cat-free island,WA,-20.542,116.68,140.02,123.55,1,2024 Appendix 10,Pale Field-rat (north-western)
+"Uwins Is, Kimberley",island,Cat-free island,WA,-15.2661913784,124.820331544,226.89,64.36,3,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden Bandicoot; Golden-backed Tree-rat
+"Weld Is, Pilbara",island,Cat-free island,WA,-21.3856346474,115.542983654,127.89,133.19,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"West Lewis Is, Pilbara",island,Cat-free island,WA,-20.5842656885,116.634300272,139.54,124.03,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+Whitlock Is,island,Cat-free island,WA,-30.3207751437,114.993619377,122.03,239.3,1,2024 Appendix 4 (DEWHA island ID),Dibbler
+"Wollaston Is, Kimberley",island,Cat-free island,WA,-14.496426727,125.470240087,233.82,55.86,2,2024 Appendix 4 (DEWHA island ID),Northern Quoll; Golden-backed Tree-rat

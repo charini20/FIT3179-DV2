@@ -1,0 +1,355 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Mirrored butterfly chart: seven frequently recorded nationally threatened native mammal taxa recorded on BOTH cat-free islands and fenced mainland havens; selected by total site records and displayed in descending sum of within-type percentages. 2024 government data, 98 islands and 26 fenced sites. Share of sites, not number of animals. Compact seven-row Vega-Lite layout; labels use common names.",
+  "background": "#FFFFFF",
+  "width": 288,
+  "height": 336,
+  "data": {
+    "values": [
+      {
+        "species": "Woylie",
+        "exact_species": "Woylie",
+        "island_sites": 3,
+        "fenced_sites": 12,
+        "island_pct": 3.1,
+        "fenced_pct": 46.2,
+        "island_value": -3.1,
+        "fenced_value": 46.2,
+        "island_label": "3.1%",
+        "fenced_label": "46.2%",
+        "combined_pct": 49.3,
+        "total_sites": 15,
+        "rank_by_combined_share": 1
+      },
+      {
+        "species": "Bilby",
+        "exact_species": "Bilby",
+        "island_sites": 1,
+        "fenced_sites": 11,
+        "island_pct": 1.0,
+        "fenced_pct": 42.3,
+        "island_value": -1.0,
+        "fenced_value": 42.3,
+        "island_label": "1.0%",
+        "fenced_label": "42.3%",
+        "combined_pct": 43.3,
+        "total_sites": 12,
+        "rank_by_combined_share": 2
+      },
+      {
+        "species": "Western bandicoot",
+        "exact_species": "Western Barred Bandicoot",
+        "island_sites": 4,
+        "fenced_sites": 6,
+        "island_pct": 4.1,
+        "fenced_pct": 23.1,
+        "island_value": -4.1,
+        "fenced_value": 23.1,
+        "island_label": "4.1%",
+        "fenced_label": "23.1%",
+        "combined_pct": 27.2,
+        "total_sites": 10,
+        "rank_by_combined_share": 3
+      },
+      {
+        "species": "Boodie (bettong)",
+        "exact_species": "Boodie (Shark Bay)",
+        "island_sites": 3,
+        "fenced_sites": 6,
+        "island_pct": 3.1,
+        "fenced_pct": 23.1,
+        "island_value": -3.1,
+        "fenced_value": 23.1,
+        "island_label": "3.1%",
+        "fenced_label": "23.1%",
+        "combined_pct": 26.2,
+        "total_sites": 9,
+        "rank_by_combined_share": 4
+      },
+      {
+        "species": "Golden bandicoot",
+        "exact_species": "Golden Bandicoot",
+        "island_sites": 12,
+        "fenced_sites": 3,
+        "island_pct": 12.2,
+        "fenced_pct": 11.5,
+        "island_value": -12.2,
+        "fenced_value": 11.5,
+        "island_label": "12.2%",
+        "fenced_label": "11.5%",
+        "combined_pct": 23.7,
+        "total_sites": 15,
+        "rank_by_combined_share": 5
+      },
+      {
+        "species": "Stick-nest rat",
+        "exact_species": "Greater Stick-nest Rat",
+        "island_sites": 6,
+        "fenced_sites": 2,
+        "island_pct": 6.1,
+        "fenced_pct": 7.7,
+        "island_value": -6.1,
+        "fenced_value": 7.7,
+        "island_label": "6.1%",
+        "fenced_label": "7.7%",
+        "combined_pct": 13.8,
+        "total_sites": 8,
+        "rank_by_combined_share": 6
+      },
+      {
+        "species": "Dibbler",
+        "exact_species": "Dibbler",
+        "island_sites": 5,
+        "fenced_sites": 2,
+        "island_pct": 5.1,
+        "fenced_pct": 7.7,
+        "island_value": -5.1,
+        "fenced_value": 7.7,
+        "island_label": "5.1%",
+        "fenced_label": "7.7%",
+        "combined_pct": 12.8,
+        "total_sites": 7,
+        "rank_by_combined_share": 7
+      }
+    ]
+  },
+  "encoding": {
+    "y": {
+      "field": "species",
+      "type": "nominal",
+      "sort": [
+        "Woylie",
+        "Bilby",
+        "Western bandicoot",
+        "Boodie (bettong)",
+        "Golden bandicoot",
+        "Stick-nest rat",
+        "Dibbler"
+      ],
+      "axis": {
+        "title": null,
+        "labelColor": "#24375C",
+        "labelFont": "DM Sans",
+        "labelFontSize": 11,
+        "labelFontWeight": 700,
+        "labelPadding": 9,
+        "labelLimit": 215,
+        "domain": true,
+        "ticks": false,
+        "domainColor": "#8A9CB8",
+        "domainWidth": 1.5
+      },
+      "scale": {
+        "paddingInner": 0.26,
+        "paddingOuter": 0.15
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "stroke": "#9AAFC9",
+        "strokeWidth": 1.3
+      },
+      "encoding": {
+        "x": {
+          "datum": 0,
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              -62,
+              62
+            ],
+            "nice": false
+          },
+          "axis": {
+            "title": "Share of refuges recording each mammal (%)",
+            "titleColor": "#536987",
+            "titleFont": "DM Sans",
+            "titleFontSize": 11,
+            "titleFontWeight": 600,
+            "titlePadding": 12,
+            "labelColor": "#71819A",
+            "labelFont": "DM Sans",
+            "labelFontSize": 10.5,
+            "labelPadding": 7,
+            "values": [
+              -50,
+              -25,
+              0,
+              25,
+              50
+            ],
+            "labelExpr": "abs(datum.value)+'%'",
+            "grid": true,
+            "gridColor": "#E7ECF4",
+            "gridWidth": 1,
+            "domain": true,
+            "ticks": true,
+            "domainColor": "#8A9CB8",
+            "domainWidth": 1.5,
+            "tickColor": "#B7C4D4",
+            "tickSize": 4
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "bar",
+        "size": 23,
+        "color": "#7089C9",
+        "cornerRadius": 0,
+        "stroke": null
+      },
+      "encoding": {
+        "x": {
+          "field": "island_value",
+          "type": "quantitative"
+        },
+        "x2": {
+          "datum": 0
+        },
+        "tooltip": [
+          {
+            "field": "exact_species",
+            "type": "nominal",
+            "title": "Threatened native mammal"
+          },
+          {
+            "field": "island_sites",
+            "type": "quantitative",
+            "title": "Cat-free islands",
+            "format": ".0f"
+          },
+          {
+            "field": "island_pct",
+            "type": "quantitative",
+            "title": "Of islands (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "fenced_sites",
+            "type": "quantitative",
+            "title": "Fenced mainland havens",
+            "format": ".0f"
+          },
+          {
+            "field": "fenced_pct",
+            "type": "quantitative",
+            "title": "Of fenced havens (%)",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "bar",
+        "size": 23,
+        "color": "#B889A5",
+        "cornerRadius": 0,
+        "stroke": null
+      },
+      "encoding": {
+        "x": {
+          "field": "fenced_value",
+          "type": "quantitative"
+        },
+        "x2": {
+          "datum": 0
+        },
+        "tooltip": [
+          {
+            "field": "exact_species",
+            "type": "nominal",
+            "title": "Threatened native mammal"
+          },
+          {
+            "field": "island_sites",
+            "type": "quantitative",
+            "title": "Cat-free islands",
+            "format": ".0f"
+          },
+          {
+            "field": "island_pct",
+            "type": "quantitative",
+            "title": "Of islands (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "fenced_sites",
+            "type": "quantitative",
+            "title": "Fenced mainland havens",
+            "format": ".0f"
+          },
+          {
+            "field": "fenced_pct",
+            "type": "quantitative",
+            "title": "Of fenced havens (%)",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontWeight": 800,
+        "fontSize": 11.5,
+        "align": "right",
+        "dx": -5,
+        "baseline": "middle",
+        "color": "#4969B4"
+      },
+      "encoding": {
+        "x": {
+          "field": "island_value",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "island_label"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontWeight": 800,
+        "fontSize": 11.5,
+        "align": "left",
+        "dx": 5,
+        "baseline": "middle",
+        "color": "#A26585"
+      },
+      "encoding": {
+        "x": {
+          "field": "fenced_value",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "fenced_label"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "DM Sans"
+  },
+  "padding": {
+    "left": 5,
+    "right": 16,
+    "top": 5,
+    "bottom": 7
+  },
+  "autosize": {
+    "type": "pad",
+    "contains": "padding"
+  }
+}

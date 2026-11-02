@@ -1,0 +1,318 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Simple dumbbell chart comparing population change with and without management for native mammal size groups, 2000 to 2017.",
+  "background": "white",
+  "width": 540,
+  "height": 250,
+  "data": {
+    "values": [
+      {
+        "group": "All mammals",
+        "display": "All mammals",
+        "un": -63,
+        "managed": 8,
+        "un_label": "-63%",
+        "managed_label": "8%"
+      },
+      {
+        "group": "Small",
+        "display": "Small",
+        "un": -96,
+        "managed": -98,
+        "un_label": "-96%",
+        "managed_label": "-98%"
+      },
+      {
+        "group": "Medium",
+        "display": "Medium",
+        "un": -55,
+        "managed": 40,
+        "un_label": "-55%",
+        "managed_label": "40%"
+      },
+      {
+        "group": "Large",
+        "display": "Large",
+        "un": -61,
+        "managed": 48,
+        "un_label": "-61%",
+        "managed_label": "48%"
+      }
+    ]
+  },
+  "encoding": {
+    "y": {
+      "field": "display",
+      "type": "nominal",
+      "sort": [
+        "All mammals",
+        "Small (<35 g)",
+        "Medium (35–5,500 g)",
+        "Large (>5,500 g)"
+      ],
+      "axis": {
+        "title": null,
+        "labelColor": "#24375C",
+        "labelFont": "DM Sans",
+        "labelFontSize": 14,
+        "labelFontWeight": 700,
+        "labelPadding": 18,
+        "labelLimit": 140,
+        "ticks": false,
+        "domain": true,
+        "domainColor": "#9CAFCB",
+        "domainWidth": 1.7
+      },
+      "scale": {
+        "paddingInner": 0.4,
+        "paddingOuter": 0.2
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "stroke": "#AEB7C4",
+        "strokeWidth": 2.8
+      },
+      "encoding": {
+        "x": {
+          "field": "un",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              -150,
+              70
+            ],
+            "nice": false
+          },
+          "axis": {
+            "title": "Population change (%)",
+            "titleFont": "DM Sans",
+            "titleFontWeight": 600,
+            "titleFontSize": 12,
+            "titlePadding": 14,
+            "titleColor": "#576A84",
+            "labelColor": "#6A7D96",
+            "labelFont": "DM Sans",
+            "labelFontSize": 12,
+            "labelPadding": 10,
+            "values": [
+              -150,
+              -100,
+              -50,
+              0,
+              50
+            ],
+            "grid": true,
+            "gridColor": "#E7ECF3",
+            "gridWidth": 1.2,
+            "domain": true,
+            "ticks": true,
+            "labelExpr": "datum.value > 0 ? '+' + datum.value + '%' : datum.value + '%'",
+            "domainColor": "#9CAFCB",
+            "domainWidth": 1.7,
+            "tickColor": "#9CAFCB",
+            "tickWidth": 1.2,
+            "tickSize": 5
+          }
+        },
+        "x2": {
+          "field": "managed"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "stroke": "#C5CCD8",
+        "strokeDash": [
+          4,
+          4
+        ],
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "datum": 0,
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 260,
+        "color": "#6E89CD",
+        "stroke": "white",
+        "strokeWidth": 1,
+        "opacity": 1,
+        "fillOpacity": 1,
+        "strokeOpacity": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "un",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "group",
+            "type": "nominal",
+            "title": "Group"
+          },
+          {
+            "field": "un_label",
+            "type": "nominal",
+            "title": "No management"
+          },
+          {
+            "field": "managed_label",
+            "type": "nominal",
+            "title": "Management"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 260,
+        "color": "#C58AA6",
+        "stroke": "white",
+        "strokeWidth": 1,
+        "opacity": 1,
+        "fillOpacity": 1,
+        "strokeOpacity": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "managed",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.group !== 'Small'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontSize": 14,
+        "fontWeight": 800,
+        "align": "right",
+        "dx": -12,
+        "baseline": "middle",
+        "color": "#4167B3"
+      },
+      "encoding": {
+        "x": {
+          "field": "un",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "un_label"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.group !== 'Small'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontSize": 14,
+        "fontWeight": 800,
+        "align": "left",
+        "dx": 12,
+        "baseline": "middle",
+        "color": "#AA6787"
+      },
+      "encoding": {
+        "x": {
+          "field": "managed",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "managed_label"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.group === 'Small'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontSize": 14,
+        "fontWeight": 800,
+        "align": "left",
+        "dx": 17,
+        "baseline": "middle",
+        "color": "#4167B3"
+      },
+      "encoding": {
+        "x": {
+          "field": "un",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "un_label"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.group === 'Small'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontSize": 14,
+        "fontWeight": 800,
+        "align": "right",
+        "dx": -17,
+        "baseline": "middle",
+        "color": "#AA6787"
+      },
+      "encoding": {
+        "x": {
+          "field": "managed",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "managed_label"
+        }
+      }
+    }
+  ],
+  "config": {
+    "font": "DM Sans",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "grid": false
+    }
+  },
+  "padding": {
+    "left": 26,
+    "right": 26,
+    "top": 8,
+    "bottom": 8
+  }
+}

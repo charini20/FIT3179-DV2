@@ -1,0 +1,28 @@
+name,type,type_label,state,verified_lat,verified_lon,x,y,n_species,coordinate_source,species
+"Alpha Is, Montebellos",island,Cat-free island,WA,-20.4093159656,115.526859854,127.72,122.04,1,2024 Appendix 4 (DEWHA island ID),Boodie (Barrow Island)
+"Angel, Pilbara",island,Cat-free island,WA,-20.4931021319,116.805069196,141.36,122.99,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Ashburton, Pilbara",island,Cat-free island,WA,-21.591824198,114.935466049,121.41,135.56,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Barrow Is, Pilbara",island,Cat-free island,WA,-20.7881721348,115.399720995,126.36,126.36,3,2024 Appendix 4 (DEWHA island ID),Boodie (Barrow Island); Golden Bandicoot; Spectacled Hare-wallaby (Barrow Island)
+Boodie Is,island,Cat-free island,WA,-20.9626768537,115.327490504,125.59,128.35,1,2024 Appendix 4 (DEWHA island ID),Boodie (Barrow Island)
+"Buttercup, Montebello",island,Cat-free island,WA,-20.485,115.536,127.82,122.9,1,2024 Appendix 10,Golden Bandicoot
+"Doole Is, Exmouth Gulf",island,Cat-free island,WA,-22.4669644647,114.16335868,113.17,145.63,1,2024 Appendix 4 (DEWHA island ID),Golden Bandicoot
+"East Lewis, Pilbara",island,Cat-free island,WA,-20.6120120047,116.657962629,139.79,124.35,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Enderby, Pilbara",island,Cat-free island,WA,-20.6009979298,116.52046825,138.32,124.22,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Fortescue Is, Pilbara",island,Cat-free island,WA,-20.9082753813,116.036825138,133.16,127.73,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Gidley, Pilbara",island,Cat-free island,WA,-20.4504851416,116.818135448,141.5,122.51,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Hauy Is, Pilbara",island,Cat-free island,WA,-20.4342142197,116.967278186,143.09,122.32,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+Hermite Is,island,Cat-free island,WA,-20.4627037528,115.528878912,127.74,122.65,2,2024 Appendix 4 (DEWHA island ID),Golden Bandicoot; Spectacled Hare-wallaby (Barrow Island)
+"Legendre Is, Dampier Archipelago",island,Cat-free island,WA,-20.3863097756,116.879670506,142.16,121.78,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Malus Is, Pilbara",island,Cat-free island,WA,-20.5136877955,116.682489644,140.05,123.23,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Middle Is, Pilbara",island,Cat-free island,WA,-20.911955107,115.327610984,125.59,127.77,1,2024 Appendix 4 (DEWHA island ID),Golden Bandicoot
+"Middle Mangrove, Pilbara",island,Cat-free island,WA,-21.4802334706,115.355408607,125.89,134.28,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"North Malus, Pilbara",island,Cat-free island,WA,-20.505507,116.653476,139.74,123.14,1,2024 Appendix 10,Pale Field-rat (north-western)
+"North Mangrove, Pilbara",island,Cat-free island,WA,-21.4553234212,115.370216764,126.05,133.99,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"North-West Is, Montebellos",island,Cat-free island,WA,-20.3641504217,115.526507649,127.72,121.53,1,2024 Appendix 4 (DEWHA island ID),"Djoongari, Shark Bay Mouse"
+"Roberts Is, Pilbara",island,Cat-free island,WA,-22.4183372434,114.184857498,113.4,145.07,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Southwest Regnard Is, Pilbara",island,Cat-free island,WA,-20.8089064212,116.244931356,135.38,126.6,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"Trimouille Is, Montebellos",island,Cat-free island,WA,-20.3964394273,115.566539704,128.14,121.89,1,2024 Appendix 4 (DEWHA island ID),Mala
+"Unnamed, Little Roberts, Pilbara",island,Cat-free island,WA,-22.4,114.184,113.39,144.86,1,2024 Appendix 10,Pale Field-rat (north-western)
+"Unnamed, NE of West Lewis",island,Cat-free island,WA,-20.542,116.68,140.02,123.55,1,2024 Appendix 10,Pale Field-rat (north-western)
+"Weld Is, Pilbara",island,Cat-free island,WA,-21.3856346474,115.542983654,127.89,133.19,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)
+"West Lewis Is, Pilbara",island,Cat-free island,WA,-20.5842656885,116.634300272,139.54,124.03,1,2024 Appendix 4 (DEWHA island ID),Pale Field-rat (north-western)

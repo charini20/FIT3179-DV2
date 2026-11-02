@@ -1,0 +1,495 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Original waterfall analysis of the Australian Threatened Species Index 2025 mammal data downloaded as Trend CSV. Index normalised to 100 in 1985. Period changes calculated directly from official annual values; not animal counts, no confidence interval shown. Annotation identifies 2000–2005 as the largest drop in the displayed periods.",
+  "background": "#FFFFFF",
+  "width": 570,
+  "height": 285,
+  "data": {
+    "values": [
+      {
+        "step": "1985",
+        "order": 0,
+        "period": "1985 baseline",
+        "kind": "Starting index",
+        "start": 0,
+        "end": 100.0,
+        "lo": 0,
+        "hi": 100.0,
+        "label": "100",
+        "change": 100,
+        "end_index": 100.0,
+        "label_y": 105.5,
+        "fill": "#657FC1",
+        "next_step": "85–90",
+        "connector": 100.0
+      },
+      {
+        "step": "85–90",
+        "order": 1,
+        "period": "1985–1990",
+        "kind": "Increase",
+        "start": 100.0,
+        "end": 116.091516,
+        "lo": 100.0,
+        "hi": 116.091516,
+        "label": "+16.1",
+        "change": 16.091516,
+        "end_index": 116.091516,
+        "label_y": 121.591516,
+        "fill": "#6F9BBC",
+        "next_step": "90–95",
+        "connector": 116.091516
+      },
+      {
+        "step": "90–95",
+        "order": 2,
+        "period": "1990–1995",
+        "kind": "Decrease",
+        "start": 116.091516,
+        "end": 103.472767,
+        "lo": 103.472767,
+        "hi": 116.091516,
+        "label": "-12.6",
+        "change": -12.61875,
+        "end_index": 103.472767,
+        "label_y": 121.591516,
+        "fill": "#C388A6",
+        "next_step": "95–00",
+        "connector": 103.472767
+      },
+      {
+        "step": "95–00",
+        "order": 3,
+        "period": "1995–2000",
+        "kind": "Decrease",
+        "start": 103.472767,
+        "end": 95.613321,
+        "lo": 95.613321,
+        "hi": 103.472767,
+        "label": "-7.9",
+        "change": -7.859446,
+        "end_index": 95.613321,
+        "label_y": 108.972767,
+        "fill": "#C388A6",
+        "next_step": "00–05",
+        "connector": 95.613321
+      },
+      {
+        "step": "00–05",
+        "order": 4,
+        "period": "2000–2005",
+        "kind": "Decrease",
+        "start": 95.613321,
+        "end": 62.827941,
+        "lo": 62.827941,
+        "hi": 95.613321,
+        "label": "-32.8",
+        "change": -32.78538,
+        "end_index": 62.827941,
+        "label_y": 101.113321,
+        "fill": "#C388A6",
+        "next_step": "05–10",
+        "connector": 62.827941
+      },
+      {
+        "step": "05–10",
+        "order": 5,
+        "period": "2005–2010",
+        "kind": "Increase",
+        "start": 62.827941,
+        "end": 65.166391,
+        "lo": 62.827941,
+        "hi": 65.166391,
+        "label": "+2.3",
+        "change": 2.33845,
+        "end_index": 65.166391,
+        "label_y": 70.666391,
+        "fill": "#6F9BBC",
+        "next_step": "10–15",
+        "connector": 65.166391
+      },
+      {
+        "step": "10–15",
+        "order": 6,
+        "period": "2010–2015",
+        "kind": "Decrease",
+        "start": 65.166391,
+        "end": 60.792772,
+        "lo": 60.792772,
+        "hi": 65.166391,
+        "label": "-4.4",
+        "change": -4.373619,
+        "end_index": 60.792772,
+        "label_y": 70.666391,
+        "fill": "#C388A6",
+        "next_step": "15–20",
+        "connector": 60.792772
+      },
+      {
+        "step": "15–20",
+        "order": 7,
+        "period": "2015–2020",
+        "kind": "Decrease",
+        "start": 60.792772,
+        "end": 52.081772,
+        "lo": 52.081772,
+        "hi": 60.792772,
+        "label": "-8.7",
+        "change": -8.711001,
+        "end_index": 52.081772,
+        "label_y": 66.292772,
+        "fill": "#C388A6",
+        "next_step": "20–22",
+        "connector": 52.081772
+      },
+      {
+        "step": "20–22",
+        "order": 8,
+        "period": "2020–2022",
+        "kind": "Increase",
+        "start": 52.081772,
+        "end": 61.96396,
+        "lo": 52.081772,
+        "hi": 61.96396,
+        "label": "+9.9",
+        "change": 9.882188,
+        "end_index": 61.96396,
+        "label_y": 67.46396,
+        "fill": "#6F9BBC",
+        "next_step": "2022",
+        "connector": 61.96396
+      },
+      {
+        "step": "2022",
+        "order": 9,
+        "period": "2022 ending index",
+        "kind": "Ending index",
+        "start": 0,
+        "end": 61.96396,
+        "lo": 0,
+        "hi": 61.96396,
+        "label": "62.0",
+        "change": 61.96396,
+        "end_index": 61.96396,
+        "label_y": 67.46396,
+        "fill": "#657FC1"
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "step",
+      "type": "ordinal",
+      "sort": [
+        "1985",
+        "85–90",
+        "90–95",
+        "95–00",
+        "00–05",
+        "05–10",
+        "10–15",
+        "15–20",
+        "20–22",
+        "2022"
+      ],
+      "scale": {
+        "paddingInner": 0.2,
+        "paddingOuter": 0.11
+      },
+      "axis": {
+        "title": null,
+        "labelAngle": 0,
+        "labelColor": "#536984",
+        "labelFont": "DM Sans",
+        "labelFontSize": 12,
+        "labelPadding": 7,
+        "labelLimit": 68,
+        "ticks": false,
+        "domain": true,
+        "labelOverlap": false,
+        "domainColor": "#B1BED3",
+        "domainWidth": 1
+      }
+    }
+  },
+  "layer": [
+    {
+      "transform": [
+        {
+          "filter": "datum.order < 9"
+        }
+      ],
+      "mark": {
+        "type": "rule",
+        "stroke": "#B9C7D9",
+        "strokeDash": [
+          3,
+          3
+        ],
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "step",
+          "type": "ordinal",
+          "sort": [
+            "1985",
+            "85–90",
+            "90–95",
+            "95–00",
+            "00–05",
+            "05–10",
+            "10–15",
+            "15–20",
+            "20–22",
+            "2022"
+          ]
+        },
+        "x2": {
+          "field": "next_step"
+        },
+        "y": {
+          "field": "end",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              135
+            ],
+            "nice": false
+          },
+          "axis": {
+            "title": "Index (1985 = 100)",
+            "titleColor": "#526885",
+            "titleFont": "DM Sans",
+            "titleFontSize": 13,
+            "titlePadding": 14,
+            "labelColor": "#647A95",
+            "labelFont": "DM Sans",
+            "labelFontSize": 13,
+            "values": [
+              0,
+              25,
+              50,
+              75,
+              100,
+              125
+            ],
+            "grid": true,
+            "gridColor": "#ECF0F6",
+            "gridWidth": 1,
+            "domain": false,
+            "ticks": false
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "bar",
+        "size": 35,
+        "cornerRadius": 2,
+        "opacity": 1
+      },
+      "encoding": {
+        "y": {
+          "field": "lo",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              135
+            ],
+            "nice": false
+          },
+          "axis": {
+            "title": "Index (1985 = 100)",
+            "titleColor": "#526885",
+            "titleFont": "DM Sans",
+            "titleFontSize": 13,
+            "titlePadding": 14,
+            "labelColor": "#647A95",
+            "labelFont": "DM Sans",
+            "labelFontSize": 13,
+            "values": [
+              0,
+              25,
+              50,
+              75,
+              100,
+              125
+            ],
+            "grid": true,
+            "gridColor": "#ECF0F6",
+            "gridWidth": 1,
+            "domain": false,
+            "ticks": false
+          }
+        },
+        "y2": {
+          "field": "hi"
+        },
+        "color": {
+          "field": "fill",
+          "type": "nominal",
+          "scale": null,
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "period",
+            "type": "nominal",
+            "title": "Period"
+          },
+          {
+            "field": "kind",
+            "type": "nominal",
+            "title": "Category"
+          },
+          {
+            "field": "start",
+            "type": "quantitative",
+            "title": "Starting index",
+            "format": ".1f"
+          },
+          {
+            "field": "end",
+            "type": "quantitative",
+            "title": "Ending index",
+            "format": ".1f"
+          },
+          {
+            "field": "change",
+            "type": "quantitative",
+            "title": "Change (index points)",
+            "format": "+.1f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontSize": 14,
+        "fontWeight": 800,
+        "baseline": "bottom",
+        "dy": -3,
+        "color": "#24375C"
+      },
+      "encoding": {
+        "y": {
+          "field": "label_y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        },
+        "tooltip": [
+          {
+            "field": "period",
+            "type": "nominal",
+            "title": "Period"
+          },
+          {
+            "field": "kind",
+            "type": "nominal",
+            "title": "Category"
+          },
+          {
+            "field": "start",
+            "type": "quantitative",
+            "title": "Starting index",
+            "format": ".1f"
+          },
+          {
+            "field": "end",
+            "type": "quantitative",
+            "title": "Ending index",
+            "format": ".1f"
+          },
+          {
+            "field": "change",
+            "type": "quantitative",
+            "title": "Change (index points)",
+            "format": "+.1f"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.step === '00–05'"
+        }
+      ],
+      "mark": {
+        "type": "rule",
+        "stroke": "#9B6482",
+        "strokeWidth": 1.25,
+        "strokeDash": [
+          2,
+          2
+        ]
+      },
+      "encoding": {
+        "x": {
+          "field": "step",
+          "type": "ordinal"
+        },
+        "y": {
+          "datum": 62.8,
+          "type": "quantitative"
+        },
+        "y2": {
+          "datum": 51,
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.step === '00–05'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontSize": 11.2,
+        "fontWeight": 800,
+        "align": "center",
+        "baseline": "bottom",
+        "color": "#8F5879"
+      },
+      "encoding": {
+        "x": {
+          "field": "step",
+          "type": "ordinal"
+        },
+        "y": {
+          "datum": 44,
+          "type": "quantitative"
+        },
+        "text": {
+          "datum": "Largest fall"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "DM Sans",
+    "axis": {
+      "grid": false
+    }
+  },
+  "padding": {
+    "top": 11,
+    "right": 13,
+    "bottom": 2,
+    "left": 7
+  }
+}

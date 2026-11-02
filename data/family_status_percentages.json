@@ -1,0 +1,202 @@
+[
+  {
+    "family": "Muridae",
+    "status": "Critically Endangered",
+    "status_label": "Critical",
+    "count": 1,
+    "total": 33,
+    "percentage": 3.0,
+    "share_label": "3%",
+    "tooltip_share": "3.0% of Muridae entries"
+  },
+  {
+    "family": "Muridae",
+    "status": "Endangered",
+    "status_label": "Endangered",
+    "count": 7,
+    "total": 33,
+    "percentage": 21.2,
+    "share_label": "21.2%",
+    "tooltip_share": "21.2% of Muridae entries"
+  },
+  {
+    "family": "Muridae",
+    "status": "Vulnerable",
+    "status_label": "Vulnerable",
+    "count": 11,
+    "total": 33,
+    "percentage": 33.3,
+    "share_label": "33.3%",
+    "tooltip_share": "33.3% of Muridae entries"
+  },
+  {
+    "family": "Muridae",
+    "status": "Extinct",
+    "status_label": "Extinct",
+    "count": 14,
+    "total": 33,
+    "percentage": 42.4,
+    "share_label": "42.4%",
+    "tooltip_share": "42.4% of Muridae entries"
+  },
+  {
+    "family": "Macropodidae",
+    "status": "Critically Endangered",
+    "status_label": "Critical",
+    "count": 1,
+    "total": 28,
+    "percentage": 3.6,
+    "share_label": "3.6%",
+    "tooltip_share": "3.6% of Macropodidae entries"
+  },
+  {
+    "family": "Macropodidae",
+    "status": "Endangered",
+    "status_label": "Endangered",
+    "count": 8,
+    "total": 28,
+    "percentage": 28.6,
+    "share_label": "28.6%",
+    "tooltip_share": "28.6% of Macropodidae entries"
+  },
+  {
+    "family": "Macropodidae",
+    "status": "Vulnerable",
+    "status_label": "Vulnerable",
+    "count": 13,
+    "total": 28,
+    "percentage": 46.4,
+    "share_label": "46.4%",
+    "tooltip_share": "46.4% of Macropodidae entries"
+  },
+  {
+    "family": "Macropodidae",
+    "status": "Extinct",
+    "status_label": "Extinct",
+    "count": 6,
+    "total": 28,
+    "percentage": 21.4,
+    "share_label": "21.4%",
+    "tooltip_share": "21.4% of Macropodidae entries"
+  },
+  {
+    "family": "Dasyuridae",
+    "status": "Critically Endangered",
+    "status_label": "Critical",
+    "count": 0,
+    "total": 20,
+    "percentage": 0.0,
+    "share_label": "0%",
+    "tooltip_share": "0.0% of Dasyuridae entries"
+  },
+  {
+    "family": "Dasyuridae",
+    "status": "Endangered",
+    "status_label": "Endangered",
+    "count": 11,
+    "total": 20,
+    "percentage": 55.0,
+    "share_label": "55%",
+    "tooltip_share": "55.0% of Dasyuridae entries"
+  },
+  {
+    "family": "Dasyuridae",
+    "status": "Vulnerable",
+    "status_label": "Vulnerable",
+    "count": 9,
+    "total": 20,
+    "percentage": 45.0,
+    "share_label": "45%",
+    "tooltip_share": "45.0% of Dasyuridae entries"
+  },
+  {
+    "family": "Dasyuridae",
+    "status": "Extinct",
+    "status_label": "Extinct",
+    "count": 0,
+    "total": 20,
+    "percentage": 0.0,
+    "share_label": "0%",
+    "tooltip_share": "0.0% of Dasyuridae entries"
+  },
+  {
+    "family": "Potoroidae",
+    "status": "Critically Endangered",
+    "status_label": "Critical",
+    "count": 1,
+    "total": 15,
+    "percentage": 6.7,
+    "share_label": "6.7%",
+    "tooltip_share": "6.7% of Potoroidae entries"
+  },
+  {
+    "family": "Potoroidae",
+    "status": "Endangered",
+    "status_label": "Endangered",
+    "count": 3,
+    "total": 15,
+    "percentage": 20.0,
+    "share_label": "20%",
+    "tooltip_share": "20.0% of Potoroidae entries"
+  },
+  {
+    "family": "Potoroidae",
+    "status": "Vulnerable",
+    "status_label": "Vulnerable",
+    "count": 4,
+    "total": 15,
+    "percentage": 26.7,
+    "share_label": "26.7%",
+    "tooltip_share": "26.7% of Potoroidae entries"
+  },
+  {
+    "family": "Potoroidae",
+    "status": "Extinct",
+    "status_label": "Extinct",
+    "count": 7,
+    "total": 15,
+    "percentage": 46.7,
+    "share_label": "46.7%",
+    "tooltip_share": "46.7% of Potoroidae entries"
+  },
+  {
+    "family": "Peramelidae",
+    "status": "Critically Endangered",
+    "status_label": "Critical",
+    "count": 0,
+    "total": 14,
+    "percentage": 0.0,
+    "share_label": "0%",
+    "tooltip_share": "0.0% of Peramelidae entries"
+  },
+  {
+    "family": "Peramelidae",
+    "status": "Endangered",
+    "status_label": "Endangered",
+    "count": 3,
+    "total": 14,
+    "percentage": 21.4,
+    "share_label": "21.4%",
+    "tooltip_share": "21.4% of Peramelidae entries"
+  },
+  {
+    "family": "Peramelidae",
+    "status": "Vulnerable",
+    "status_label": "Vulnerable",
+    "count": 4,
+    "total": 14,
+    "percentage": 28.6,
+    "share_label": "28.6%",
+    "tooltip_share": "28.6% of Peramelidae entries"
+  },
+  {
+    "family": "Peramelidae",
+    "status": "Extinct",
+    "status_label": "Extinct",
+    "count": 7,
+    "total": 14,
+    "percentage": 50.0,
+    "share_label": "50%",
+    "tooltip_share": "50.0% of Peramelidae entries"
+  }
+]

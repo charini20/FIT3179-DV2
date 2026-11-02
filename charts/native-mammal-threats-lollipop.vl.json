@@ -1,0 +1,287 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Lollipop chart: percentage of 138 Australian terrestrial mammal species identified with each threat in Woinarski et al. (2015), shown immediately beside each dot. Exact counts available in tooltips; threats overlap.",
+  "background": "#FFFFFF",
+  "autosize": {
+    "type": "pad",
+    "contains": "padding"
+  },
+  "width": 285,
+  "height": 267,
+  "data": {
+    "values": [
+      {
+        "threat": "Feral cats",
+        "paper_label": "Feral cats",
+        "species": 97,
+        "rank": 1,
+        "percent": 70.3,
+        "percent_label": "70.3%"
+      },
+      {
+        "threat": "Changed fire regimes",
+        "paper_label": "Changed fire regimes",
+        "species": 63,
+        "rank": 2,
+        "percent": 45.7,
+        "percent_label": "45.7%"
+      },
+      {
+        "threat": "Red foxes",
+        "paper_label": "Red foxes",
+        "species": 58,
+        "rank": 3,
+        "percent": 42.0,
+        "percent_label": "42.0%"
+      },
+      {
+        "threat": "Habitat loss / fragmentation",
+        "paper_label": "Habitat loss / fragmentation",
+        "species": 45,
+        "rank": 4,
+        "percent": 32.6,
+        "percent_label": "32.6%"
+      },
+      {
+        "threat": "Livestock / feral herbivores",
+        "paper_label": "Livestock / feral herbivores",
+        "species": 30,
+        "rank": 5,
+        "percent": 21.7,
+        "percent_label": "21.7%"
+      },
+      {
+        "threat": "Climate / severe weather",
+        "paper_label": "Climate / severe weather",
+        "species": 26,
+        "rank": 6,
+        "percent": 18.8,
+        "percent_label": "18.8%"
+      },
+      {
+        "threat": "Disease",
+        "paper_label": "Disease",
+        "species": 22,
+        "rank": 7,
+        "percent": 15.9,
+        "percent_label": "15.9%"
+      }
+    ]
+  },
+  "encoding": {
+    "y": {
+      "field": "threat",
+      "type": "nominal",
+      "sort": [
+        "Feral cats",
+        "Changed fire regimes",
+        "Red foxes",
+        "Habitat loss / fragmentation",
+        "Livestock / feral herbivores",
+        "Climate / severe weather",
+        "Disease"
+      ],
+      "axis": {
+        "title": null,
+        "labelColor": "#24375C",
+        "labelFont": "DM Sans",
+        "labelFontSize": 10.5,
+        "labelFontWeight": 600,
+        "labelLimit": 125,
+        "labelPadding": 7,
+        "domain": true,
+        "ticks": false,
+        "domainColor": "#9AAECD",
+        "domainWidth": 1.65,
+        "labelExpr": "split(datum.label, ' / ')",
+        "labelLineHeight": 13
+      },
+      "scale": {
+        "domain": [
+          "Feral cats",
+          "Changed fire regimes",
+          "Red foxes",
+          "Habitat loss / fragmentation",
+          "Livestock / feral herbivores",
+          "Climate / severe weather",
+          "Disease"
+        ],
+        "paddingInner": 0.2,
+        "paddingOuter": 0.15
+      }
+    },
+    "x": {
+      "field": "percent",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          100
+        ]
+      },
+      "axis": {
+        "title": null,
+        "titleColor": "#24375C",
+        "titleFont": "DM Sans",
+        "titleFontSize": 10.5,
+        "titleFontWeight": 600,
+        "titlePadding": 12,
+        "labelColor": "#61738D",
+        "labelFont": "DM Sans",
+        "labelFontSize": 10.5,
+        "labelPadding": 10,
+        "values": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+        ],
+        "labelExpr": "datum.value + '%'",
+        "grid": false,
+        "gridColor": "#E8EDF6",
+        "gridWidth": 1,
+        "domain": true,
+        "domainColor": "#9AAECD",
+        "domainWidth": 1.4,
+        "tickColor": "#B8C4D9",
+        "tickWidth": 1.2,
+        "tickSize": 5,
+        "ticks": false
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "strokeWidth": 3.3,
+        "strokeCap": "butt"
+      },
+      "encoding": {
+        "x": {
+          "datum": 0.4
+        },
+        "x2": {
+          "field": "percent"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.rank == 1",
+            "value": "#B87F9A"
+          },
+          "value": "#7D93C3"
+        },
+        "tooltip": [
+          {
+            "field": "paper_label",
+            "type": "nominal",
+            "title": "Threat factor"
+          },
+          {
+            "field": "species",
+            "type": "quantitative",
+            "title": "Species at risk",
+            "format": ".0f"
+          },
+          {
+            "field": "percent",
+            "type": "quantitative",
+            "title": "Share of 138 species",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 500,
+        "opacity": 1,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1.0
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "test": "datum.rank == 1",
+            "value": "#B87F9A"
+          },
+          "value": "#7D93C3"
+        },
+        "tooltip": [
+          {
+            "field": "paper_label",
+            "type": "nominal",
+            "title": "Threat factor"
+          },
+          {
+            "field": "species",
+            "type": "quantitative",
+            "title": "Species at risk",
+            "format": ".0f"
+          },
+          {
+            "field": "percent",
+            "type": "quantitative",
+            "title": "Share of 138 species (%)",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 17,
+        "font": "DM Sans",
+        "fontSize": 12.6,
+        "fontWeight": 800,
+        "color": "#24375C"
+      },
+      "encoding": {
+        "text": {
+          "field": "percent_label",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "paper_label",
+            "type": "nominal",
+            "title": "Threat factor"
+          },
+          {
+            "field": "species",
+            "type": "quantitative",
+            "title": "Species at risk",
+            "format": ".0f"
+          },
+          {
+            "field": "percent",
+            "type": "quantitative",
+            "title": "Share of 138 species (%)",
+            "format": ".1f"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "font": "DM Sans",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "grid": false
+    }
+  },
+  "padding": {
+    "left": 8,
+    "right": 25,
+    "top": 10,
+    "bottom": 12
+  }
+}

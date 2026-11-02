@@ -1,0 +1,123 @@
+[
+  {
+    "id": "kimberley",
+    "name": "Kimberley",
+    "count": 30,
+    "display_bounds_xy": [
+      198,
+      39,
+      276,
+      91
+    ],
+    "plot_size": [
+      258,
+      172
+    ],
+    "zoom": "Exact affine transform of coordinates in verified haven dataset",
+    "sites": [
+      "Adolphus Is, Kimberley",
+      "Augustus Is, Kimberley",
+      "Berthier",
+      "Bigge Is, Kimberley",
+      "Boongaree Is, Kimberley",
+      "Borda Is, Kimberley",
+      "Caffarelli Is, Kimberley",
+      "Capstan Is, Kimberley",
+      "Carlia Is, Kimberley",
+      "Chambers Is",
+      "Cockatoo",
+      "Conilurus Is, Kimberley (also known as Margaret Island)",
+      "Hidden Is, Kimberley",
+      "Jar Is, Kimberley",
+      "Jungulu Is, Kimberley",
+      "Koolan Is, Kimberley",
+      "Lachlan Is, Kimberely",
+      "Long Is, Kimberley",
+      "Molema Is, Kimberley",
+      "Naturalists Is, Kimberley",
+      "Northwest Molema, Kimberley",
+      "Purrungku Is, Kimberley",
+      "Sheep Is, Kimberley",
+      "Sir Frederick is, Kimberley",
+      "St Andrew, Kimberley",
+      "Storr Is, Kimberley",
+      "Tarrant Is (satellite of Koolan)",
+      "Unnamed island, Scott Strait, Kimberley",
+      "Uwins Is, Kimberley",
+      "Wollaston Is, Kimberley"
+    ],
+    "verified_geographic_bounds": [
+      122.80876,
+      -16.93014,
+      128.64064,
+      -13.84926
+    ],
+    "equalEarth_projection": {
+      "type": "equalEarth",
+      "scale": 2340.4364,
+      "translate": [
+        -4219.2123,
+        -638.9206
+      ]
+    }
+  },
+  {
+    "id": "pilbara",
+    "name": "Pilbara",
+    "count": 27,
+    "display_bounds_xy": [
+      100,
+      107,
+      166,
+      151
+    ],
+    "plot_size": [
+      258,
+      172
+    ],
+    "zoom": "Exact affine transform of coordinates in verified haven dataset",
+    "sites": [
+      "Alpha Is, Montebellos",
+      "Angel, Pilbara",
+      "Ashburton, Pilbara",
+      "Barrow Is, Pilbara",
+      "Boodie Is",
+      "Buttercup, Montebello",
+      "Doole Is, Exmouth Gulf",
+      "East Lewis, Pilbara",
+      "Enderby, Pilbara",
+      "Fortescue Is, Pilbara",
+      "Gidley, Pilbara",
+      "Hauy Is, Pilbara",
+      "Hermite Is",
+      "Legendre Is, Dampier Archipelago",
+      "Malus Is, Pilbara",
+      "Middle Is, Pilbara",
+      "Middle Mangrove, Pilbara",
+      "North Malus, Pilbara",
+      "North Mangrove, Pilbara",
+      "North-West Is, Montebellos",
+      "Roberts Is, Pilbara",
+      "Southwest Regnard Is, Pilbara",
+      "Trimouille Is, Montebellos",
+      "Unnamed, Little Roberts, Pilbara",
+      "Unnamed, NE of West Lewis",
+      "Weld Is, Pilbara",
+      "West Lewis Is, Pilbara"
+    ],
+    "verified_geographic_bounds": [
+      113.83306,
+      -22.74468,
+      117.29757,
+      -20.08644
+    ],
+    "equalEarth_projection": {
+      "type": "equalEarth",
+      "scale": 2815.8794,
+      "translate": [
+        -4601.7413,
+        -1120.4464
+      ]
+    }
+  }
+]
